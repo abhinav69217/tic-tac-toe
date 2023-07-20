@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05vYTPcV2rnKyCaRxPy3090tj3iwkJgyjGg&usqp=CAU"
+      type="image/x-icon"
+    />
+    <title>TicTacToe</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="heading">
+        <!-- <img
+          src="https://previews.123rf.com/images/bilderundvektor/bilderundvektor1107/bilderundvektor110700078/10034033-tic-tac-toe-game.jpg"
+          alt="logo"
+          height="80px"
+          width="80px"
+        /> -->
+        <h1>TIC TAC TOE</h1>
+      </div>
+      <div class="turn">Turn for X</div>
+      <button class="reset">Reset</button>
+      <!-- -----GAME ------- -->
+      <div class="gameContainer">
+        <div class="game">
+          <div class="box bt-0 bl-0"><span class="boxContent"></span></div>
+          <div class="box bt-0"><span class="boxContent"></span></div>
+          <div class="box bt-0 br-0"><span class="boxContent"></span></div>
+          <div class="box bl-0"><span class="boxContent"></span></div>
+          <div class="box"><span class="boxContent"></span></div>
+          <div class="box br-0"><span class="boxContent"></span></div>
+          <div class="box bl-0 bb-0"><span class="boxContent"></span></div>
+          <div class="box bb-0"><span class="boxContent"></span></div>
+          <div class="box bb-0 br-0"><span class="boxContent"></span></div>
+        </div>
+      </div>
+      <p class="result"></p>
+      <p class="ins">
+        Game starts by just <strong>Tap</strong> on the box. <br />
+        <br />
+        First Player start as <strong>Player X</strong> and second player start
+        as <strong>Player 0</strong> If you want to restart game then click on
+        Reset button.<br /><br />
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
